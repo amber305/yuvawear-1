@@ -1,0 +1,22 @@
+.navbar {
+  height: 60px;
+  background-color: black;
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 var(--spacing-md);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.navigation {
+  display: flex;
+  gap: var(--spacing-md);
+}

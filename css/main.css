@@ -498,3 +498,43 @@ section {
 .language-button{
   margin-bottom: 20px;
 }
+
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background-color: #f4f4f4; 
+  margin: 0;
+}
+
+.contact-container {
+  text-align: center;
+}
+
+.contact-us-btn {
+  background-color: #007BFF; 
+  color: white;
+  padding: 15px 40px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 30px; 
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+}
+
+.contact-us-btn:hover {
+  background-color: #0056b3; 
+  transform: scale(1.05); 
+}
+
+.contact-us-btn:focus {
+  outline: none; 
+}
+
+.contact-us-btn:active {
+  transform: scale(0.98); 
+}

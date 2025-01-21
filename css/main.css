@@ -39,8 +39,12 @@
 }
 
 .hero-section {
+  display: flex;
+  justify-content: space-between;
   padding: 4rem 2rem;
   text-align: center;
+  align-items: center;
+  margin-top: -80px;
 }
 
 .hero-title {
@@ -56,12 +60,16 @@
 
 .hero-images {
   display: flex;
+  flex: 1;
+  text-align: right;
   gap: 2rem;
   justify-content: center;
   margin-top: 2rem;
+
 }
 
 .hero-img {
+  width: 100%;
   max-width: 400px;
   border-radius: 8px;
 }
@@ -228,6 +236,8 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 0 20px;
+  flex: 1;
+  text-align: left;
 }
 
 .hero h1 {
